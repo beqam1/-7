@@ -27,7 +27,7 @@ console.log("rise and shine, " + studentname + " ! ");
 
 
 let bonus;
-let salary = 1500;
+let salary = 3500;
 if (salary >= 2000) {
     bonus = 0;
 } else {
@@ -35,14 +35,29 @@ if (salary >= 2000) {
 }
 console.log(bonus);
 
+a = 26;
+b = a / 2;
+let c = 2 * (a + b);
+console.log(c);
+
+
+
+let phones = ["iphone", "samsung", "pixel", "huawei", "xiaomi"];
+console.log(phones[0]);
+
+
+
+phones = ["iphone", "samsung", "pixel", "huawei", "xiaomi"];
+console.log(phones[phones.length - 1]);
+
+
+
 
 /*
-გამოაცხადეთ ცვლადი bonus და salary ცვლადები, salary -ს მიანიჭეთ სასურველი რიცხვითი მნიშვნელობა,
-დაწერეთ თუ ხელფასი არის 2000 ლარი ან მეტი მაშინ ბონუსი არის 0, თუ ხელფასი 2000 ze ნაკლებია მაშინ ბონუსი არის ხელფასის 10%. 
-დაბეჭდეთ ბონუსი (ჯერ bonus ცვლადს უნდა მიანიჭოთ შესაბამისი მნიშვნელობა და შემდეგ დაბეჭდოთ bonus)
+დაბეჭდეთ phones მასივის პირველი და ბოლო ელემენტი ( ცალ-ცალკე console.log ებში)
+
+
 */
-
-
 
 
 
